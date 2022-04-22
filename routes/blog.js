@@ -5,7 +5,7 @@ const { time } = require ('../controllers/blog')
 router.get('/blogs', time)
 
 router.get('/post', (req, res) => {
-    console.log('screw me')
+    res.json({message: 'hello fahim, sanzida will marry you in your dreams'})
 })
 
 module.exports = router
